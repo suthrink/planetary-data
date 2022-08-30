@@ -1,7 +1,7 @@
 class Planet:
     def __init__(self, name, gases, no_of_moons, has_ring):
         self.name = name
-        self.gases = gases
+        self.gases = gases or []
         self.moons = no_of_moons
         self.has_ring = has_ring
     
